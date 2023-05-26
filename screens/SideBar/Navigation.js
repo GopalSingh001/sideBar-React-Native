@@ -1,17 +1,18 @@
-import React from 'react';
+import React  from 'react';
 import { View, Text } from 'react-native';
 import WebView from 'react-native-webview';
+const Navigation = () => {
+  
 
-const Facebook = () => {
   return (
      <WebView
-     style={{marginTop:30}}
+     
      source={
         {
-            uri:'https://reactnavigation.org/'
+            uri:'https://upwork.com/'   
         }
      }/>
   );
 }
 
-export default Facebook;
+export default Navigation;
